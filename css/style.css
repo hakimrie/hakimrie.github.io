@@ -1,0 +1,94 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  /*background: #000 url(../images/light.png) no-repeat center center;*/
+  padding: 0px;
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+.about .experiments{
+  -webkit-font-smoothing: antialiased;
+  position: relative;
+  border: 1px solid red;
+}
+a, a:hover, a:visited, a:active {
+  color: #efefef;
+  text-decoration: underline;
+}
+
+.content {
+  text-shadow: 2px 2px 2px #000;
+  color: #fff;
+  width: 500px;
+  height: 300px;
+  margin-top: -150px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+
+  min-height: 200px;
+  padding:20px;
+  box-sizing: border-box;
+  margin-left: -250px;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+h2 {
+  font-size: 18px;
+  line-height: 25px;
+}
+
+
+ul {list-style: none; padding: 0px; margin:0;}
+
+li {margin-left: 0px}
+
+.avatar{
+  z-index: 2;
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  -webkit-border-radius: 75px;
+  -moz-border-radius: 75px;
+  /*background: url(../images/hakim_japan.jpg) no-repeat;*/
+  box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  float: left;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.avatar img{
+  opacity: 0;
+  filter : alpha(opacity=0);
+}
+
+.social{
+  overflow-x: visible;
+  top: 75px;
+  left: 75px;
+  height: 64px;
+  width: 64px;
+  z-index: 1;
+  position: absolute;
+  cursor: pointer;
+}
+/*
+.twitter{
+  background: url(../images/twitter_circle_64.png) no-repeat;
+}
+.facebook{
+  background: url(../images/facebook_circle_64.png) no-repeat;
+}
+.google_plus{
+  background: url(../images/google_plus_circle_64.png) no-repeat;
+}*/
